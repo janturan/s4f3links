@@ -1,0 +1,1 @@
+<?php $url = isset($_GET['url']) ? $_GET['url']: null; $go= base64_decode($url); include ('static/function.php'); include ('header.php'); include ('content.php'); include ('footer.php'); ?>
